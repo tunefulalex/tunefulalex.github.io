@@ -1,0 +1,13 @@
+/* custom.css — site-specific tweaks on top of the vendor Monospace Web styles.
+   Kept separate from vendor/ so the original files stay untouched. */
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url('assets/images/purplesky.gif');
+  background-repeat: repeat;
+  opacity: 0.25;
+  z-index: -1;
+  pointer-events: none;
+}
